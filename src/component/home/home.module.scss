@@ -1,8 +1,11 @@
-.gridStyle {}
+.gridStyle {
+    position: absolute;
+	margin-top: 50px;
+	width: 100vw;
+}
 
 .paperStyle {
     position: absolute;
-	margin-top: 50px;
-	width: 80vw;
+	width: 100vw;
 	color: orange;
 }
