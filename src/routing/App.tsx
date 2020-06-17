@@ -16,6 +16,9 @@ class App extends React.Component{
         <HeaderContainer/>
         <Switch>
           <Route path="/" exact component={HomeContainer} />
+          <Route path="/Community-Partners" exact component={HomeContainer} />
+          <Route path="/Gallery" exact component={HomeContainer} />
+          <Route path="/Interactive-Resource-Guide" exact component={HomeContainer} />
         </Switch>
         </div>
       </Router>
