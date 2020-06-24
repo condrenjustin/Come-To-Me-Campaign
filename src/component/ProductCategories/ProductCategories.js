@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import ButtonBase from '@material-ui/core/ButtonBase';
+import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
+import Link from '@material-ui/core';
+import { Router } from 'react-router-dom';
 import {
   Typography,
 } from '@material-ui/core';
@@ -87,68 +89,120 @@ const styles = (theme) => ({
 
 function ProductCategories(props) {
   const { classes } = props;
-
-  const images = [
-    {
-      url:
-        'https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg',
-      title: 'About Us',
-      width: '50%',
-    },
-    {
-      url:
-        'https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg',
-      title: 'Resource Guide',
-      width: '50%',
-    },
-    {
-      url:
-        'https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg',
-      title: 'Community Partners',
-      width: '50%',
-    },
-    {
-      url:
-        'https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg',
-      title: 'Photo Gallery',
-      width: '50%',
-    }
-  ];
-
   return (
     <Container className={classes.root} component="section">
       <Typography variant="h4" marked="center" align="center" component="h2">
         A Little Bit About Us
       </Typography>
       <div className={classes.images}>
-        {images.map((image) => (
-          <ButtonBase
-            key={image.title}
-            className={classes.imageWrapper}
-            style={{
-              width: image.width,
-            }}
-          >
-            <div
-              className={classes.imageSrc}
-              style={{
-                backgroundImage: `url(${image.url})`,
-              }}
-            />
-            <div className={classes.imageBackdrop} />
-            <div className={classes.imageButton}>
-              <Typography
-                component="h3"
-                variant="h6"
-                color="inherit"
-                className={classes.imageTitle}
-              >
-                {image.title}
-                <div className={classes.imageMarked} />
-              </Typography>
-            </div>
-          </ButtonBase>
-        ))}
+        <Button
+          key='About Us'
+          className={classes.imageWrapper}
+          style={{
+            width: '50%',
+          }}
+          href='/aboutUs'
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              About Us
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
+        <Button
+          key='Resource Guide'
+          className={classes.imageWrapper}
+          style={{
+            width: '50%',
+          }}
+          href='/interactiveResourceGuide'
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              Resource Guide
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
+        <Button
+          key='Gallery'
+          className={classes.imageWrapper}
+          style={{
+            width: '50%',
+          }}
+          href='/gallery'
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              Gallery
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
+        <Button
+          key='Community Partners'
+          className={classes.imageWrapper}
+          style={{
+            width: '50%',
+          }}
+          href='communityPartners'
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              Community Partners
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
       </div>
     </Container>
   );

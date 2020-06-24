@@ -46,12 +46,12 @@ function ProductHero(props) {
         Enjoy a judgement-free community to openly discuss mental health practices
       </Typography>
       <Button
-        color="secondary"
+        color="default"
         variant="contained"
         size="large"
         className={classes.button}
         component="a"
-        href="/premium-themes/onepirate/sign-up/"
+        href="https://forms.gle/iQQPooUPcmDyyzTG7"
       >
         Join The Team
       </Button>

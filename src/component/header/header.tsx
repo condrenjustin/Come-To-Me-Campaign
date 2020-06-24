@@ -1,6 +1,10 @@
 import React from 'react';
 import MenuIcon from '@material-ui/icons/Menu';
-import { AcUnit, AccessAlarm } from '@material-ui/icons';
+import HomeIcon from '@material-ui/icons/Home';
+import GroupIcon from '@material-ui/icons/Group';
+import GroupWorkIcon from '@material-ui/icons/GroupWork';
+import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
+import HelpIcon from '@material-ui/icons/Help';
 import {
   Drawer,
   MenuItem,
@@ -49,25 +53,31 @@ const Header = (props:HeaderProps) => {
             <div style={{ minWidth: '20vw' }}>
               <Link style ={linkStyle} to='/'>
                 <MenuItem onClick={() => handleDrawerClick()}>
-                  <AcUnit className={styles.iconSpacing} />
+                  <HomeIcon className={styles.iconSpacing} />
                   Home
                 </MenuItem>
               </Link>
-              <Link style ={linkStyle} to='/Partners'>
+              <Link style ={linkStyle} to='/aboutUs'>
                 <MenuItem onClick={() => handleDrawerClick()}>
-                  <AcUnit className={styles.iconSpacing} />
+                  <GroupIcon className={styles.iconSpacing} />
+                  About Us
+                </MenuItem>
+              </Link>
+              <Link style ={linkStyle} to='/communityPartners'>
+                <MenuItem onClick={() => handleDrawerClick()}>
+                  <GroupWorkIcon className={styles.iconSpacing} />
                   Community Partners
                 </MenuItem>
               </Link>
-              <Link style ={linkStyle} to='/Guide'>
+              <Link style ={linkStyle} to='/interactiveResourceGuide'>
                 <MenuItem onClick={() => handleDrawerClick()}>
-                  <AcUnit className={styles.iconSpacing} />
+                  <HelpIcon className={styles.iconSpacing} />
                   Interactive Resource Guide
                 </MenuItem>
               </Link>
-              <Link style ={linkStyle} to='/Gallery'>
+              <Link style ={linkStyle} to='/gallery'>
                 <MenuItem onClick={() => handleDrawerClick()}>
-                  <AcUnit className={styles.iconSpacing} />
+                  <LibraryBooksIcon className={styles.iconSpacing} />
                   Gallery
                 </MenuItem>
               </Link>
