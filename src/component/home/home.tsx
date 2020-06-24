@@ -15,7 +15,7 @@ const Home = () => {
     <div>
       <ProductHero />
       <ProductCategories />
-      <AppFooter />
+      {/* <AppFooter /> */}
     </div>
   
     // <div className={styles.gridStyle}>
