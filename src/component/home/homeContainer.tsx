@@ -1,10 +1,8 @@
 import React from 'react';
-import {
-  Grid,
-  Paper,
-} from '@material-ui/core';
 // import { connect } from 'react-redux';
 import Home from '../home/home';
+import AboutContainer from '../about/aboutContainer';
+import PartnerContainer from '../partners/partnerContainer';
 
 export interface HomeContainerProps {
   // dispatch: (action:any) => any;
@@ -16,6 +14,8 @@ class HomeContainer extends React.Component<HomeContainerProps> {
     return (
       <div>
         <Home/>
+        <AboutContainer/>
+        <PartnerContainer/>
       </div>
     );
   }

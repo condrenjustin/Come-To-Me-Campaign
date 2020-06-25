@@ -5,9 +5,7 @@ import ProductHeroLayout from './ProductHeroLayout';
 import {
   Button,
   Typography,
-  Box,
 } from '@material-ui/core';
-import Grid from '@material-ui/core/Grid';
 
 const backgroundImage =
   'https://d279m997dpfwgl.cloudfront.net/wp/2016/11/SHEEHAN-Collin-Sunrise-Banner-1.jpg';

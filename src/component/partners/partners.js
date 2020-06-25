@@ -18,16 +18,17 @@ import mlc from './mlc.jpg'
 import nphc from './nphc.jpg'
 import panhell from './panhell.png'
 import vsg from './vsg.jpg'
+import curvy from './curvy.png'
 
 const styles = (theme) => ({
   root: {
     display: 'flex',
     overflow: 'hidden',
-    backgroundColor: 'orange',
+    backgroundColor: 'white',
   },
   container: {
-    marginTop: theme.spacing(15),
-    marginBottom: theme.spacing(30),
+    marginTop: theme.spacing(5),
+    marginBottom: theme.spacing(5),
     display: 'flex',
     position: 'relative',
   },
@@ -41,8 +42,8 @@ const styles = (theme) => ({
     height: 55,
   },
   title: {
-    marginTop: theme.spacing(5),
-    marginBottom: theme.spacing(5),
+    marginTop: theme.spacing(2),
+    marginBottom: theme.spacing(2),
   },
   curvyLines: {
     pointerEvents: 'none',
@@ -58,7 +59,7 @@ function Partners(props) {
     <section className={classes.root}>
       <Container className={classes.container}>
         <img
-          src="/Users/nextchoice/productCurvyLines.png"
+          src={curvy}
           className={classes.curvyLines}
           alt="curvy lines"
         />

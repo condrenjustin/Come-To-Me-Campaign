@@ -1,10 +1,4 @@
 import React from 'react';
-import {
-  Grid,
-  Paper,
-  Box,
-  Typography,
-} from '@material-ui/core';
 // import { connect } from 'react-redux';
 import Partners from './partners';
 
