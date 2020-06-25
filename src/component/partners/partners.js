@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
@@ -11,6 +12,12 @@ import mhrt from './mhrt.jpg'
 import mindingYourMind from './mindingyourmind.jpg'
 import oscc from './oscc.jpeg'
 import support from './support.jpeg'
+import aryehs from './aryehs.jpg'
+import ifc from './ifc.jpg'
+import mlc from './mlc.jpg'
+import nphc from './nphc.jpg'
+import panhell from './panhell.png'
+import vsg from './vsg.jpg'
 
 const styles = (theme) => ({
   root: {
@@ -58,7 +65,7 @@ function Partners(props) {
         <Grid container spacing={5}>
         <Grid item xs={12}>
             <div className={classes.item}>
-              <Typography variant="h1" className={classes.title}>
+              <Typography variant="h3" className={classes.title}>
                 Our Partners
               </Typography>
               <Typography variant="subtitle1" className={classes.item}>
@@ -139,7 +146,74 @@ function Partners(props) {
                 src={mhrt}
               />
               <Typography variant="subtitle1" className={classes.title}>
-                Vanderbilt Mental Health Round Table (MHRT)
+                Vanderbilt Mental Health Round Table
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={12}>
+            <div className={classes.item}>
+              <Typography variant="h6" className={classes.title}>
+                Other Vanderbilt Affiliates
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className={classes.item}>
+              <img
+                src={ifc}
+              />
+              <Typography variant="subtitle1" className={classes.title}>
+                Vanderbilt Interfraternity Council
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className={classes.item}>
+              <img
+                src={panhell}
+              />
+              <Typography variant="subtitle1" className={classes.title}>
+                Panhellenic Council
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className={classes.item}>
+              <img
+                src={nphc}
+              />
+              <Typography variant="subtitle1" className={classes.title}>
+                National Panhellenic Council (NPHC)
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className={classes.item}>
+              <img
+                src={vsg}
+              />
+              <Typography variant="subtitle1" className={classes.title}>
+                Vanderbilt Student Government
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className={classes.item}>
+              <img
+                src={mlc}
+              />
+              <Typography variant="subtitle1" className={classes.title}>
+                Multicultural Leadership Council
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className={classes.item}>
+              <img
+                src={aryehs}
+              />
+              <Typography variant="subtitle1" className={classes.title}>
+                Aryeh's Kitchen
               </Typography>
             </div>
           </Grid>
