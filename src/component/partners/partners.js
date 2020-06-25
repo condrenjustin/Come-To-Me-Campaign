@@ -24,7 +24,7 @@ const styles = (theme) => ({
   root: {
     display: 'flex',
     overflow: 'hidden',
-    backgroundColor: 'white',
+    backgroundColor: 'orange',
   },
   container: {
     marginTop: theme.spacing(5),

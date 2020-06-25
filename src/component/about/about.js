@@ -4,12 +4,13 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import curvy from '../partners/curvy.png';
 
 const styles = (theme) => ({
   root: {
     display: 'flex',
     overflow: 'hidden',
-    backgroundColor: 'white',
+    backgroundColor: 'orange',
   },
   container: {
     marginTop: theme.spacing(5),
@@ -44,7 +45,7 @@ function About(props) {
     <section className={classes.root}>
       <Container className={classes.container}>
         <img
-          src="/Users/nextchoice/productCurvyLines.png"
+          src={curvy}
           className={classes.curvyLines}
           alt="curvy lines"
         />
