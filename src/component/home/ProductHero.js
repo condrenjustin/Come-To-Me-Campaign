@@ -7,9 +7,10 @@ import {
   Typography,
   Box,
 } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
 
 const backgroundImage =
-  'https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg';
+  'https://d279m997dpfwgl.cloudfront.net/wp/2016/11/SHEEHAN-Collin-Sunrise-Banner-1.jpg';
 
 const styles = (theme) => ({
   background: {

@@ -28,7 +28,7 @@ function Copyright() {
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    backgroundColor: theme.palette.secondary.light,
+    backgroundColor: theme.palette.primary.light,
   },
   container: {
     marginTop: theme.spacing(8),
