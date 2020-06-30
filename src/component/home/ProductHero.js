@@ -45,7 +45,7 @@ function ProductHero(props) {
         Enjoy a judgement-free community to openly discuss mental health practices
       </Typography>
       <Button
-        color="default"
+        color="primary"
         variant="contained"
         size="large"
         className={classes.button}

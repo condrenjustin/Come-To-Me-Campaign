@@ -2,6 +2,7 @@ import React from 'react';
 // import { connect } from 'react-redux';
 import Home from '../home/home';
 import AboutContainer from '../about/aboutContainer';
+import ProductCategories from '../home/ProductCategories.js';
 import PartnerContainer from '../partners/partnerContainer';
 
 export interface HomeContainerProps {
@@ -15,7 +16,7 @@ class HomeContainer extends React.Component<HomeContainerProps> {
       <div>
         <Home/>
         <AboutContainer/>
-        <PartnerContainer/>
+        <ProductCategories/>
       </div>
     );
   }

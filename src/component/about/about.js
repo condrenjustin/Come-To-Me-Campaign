@@ -10,11 +10,11 @@ const styles = (theme) => ({
   root: {
     display: 'flex',
     overflow: 'hidden',
-    backgroundColor: 'orange',
+    backgroundColor: '#ffe3a0',
   },
   container: {
-    marginTop: theme.spacing(5),
-    marginBottom: theme.spacing(5),
+    marginTop: theme.spacing(10),
+    marginBottom: theme.spacing(25),
     display: 'flex',
     position: 'relative',
   },
@@ -50,13 +50,6 @@ function About(props) {
           alt="curvy lines"
         />
         <Grid container spacing={5}>
-        <Grid item xs={12}>
-            <div className={classes.item}>
-              <Typography variant="h3" className={classes.title}>
-                About Us
-              </Typography>
-            </div>
-          </Grid>
           <Grid item xs={6}>
             <div className={classes.item}>
               <Typography variant="h5" className={classes.title}>

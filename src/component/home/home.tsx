@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductHero from './ProductHero';
+import ProductCategories from './ProductCategories';
 import AppFooter from '../footer/AppFooter';
 
 

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { withStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import arrow from '../images/arrow.png';
 
 const styles = (theme) => ({
   root: {
@@ -54,23 +55,17 @@ function ProductHeroLayout(props) {
 
   return (
     <section className={classes.root}>
-      <Container className={classes.container}>
-        {/* <img
-          src="/static/themes/onepirate/productHeroWonder.png"
-          alt="wonder"
-          width="147"
-          height="80"
-        /> */}
+      <Container className={classes.container}>t
         {children}
         <div className={classes.backdrop} />
         <div className={clsx(classes.background, backgroundClassName)} />
-        {/* <img
+        <img
           className={classes.arrowDown}
-          src="/static/themes/onepirate/productHeroArrowDown.png"
+          src={arrow}
           height="16"
           width="12"
           alt="arrow down"
-        /> */}
+        />
       </Container>
     </section>
   );

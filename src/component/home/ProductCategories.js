@@ -92,16 +92,16 @@ function ProductCategories(props) {
   return (
     <Container className={classes.root} component="section">
       <Typography variant="h4" marked="center" align="center" component="h2">
-        A Little Bit About Us
+        Our On-Campus Partnerships
       </Typography>
       <div className={classes.images}>
         <Button
-          key='About Us'
+          key='Center for Student Wellbeing'
           className={classes.imageWrapper}
           style={{
-            width: '50%',
+            width: '33%',
           }}
-          href='/aboutUs'
+          
         >
         <div
           className={classes.imageSrc}
@@ -113,22 +113,22 @@ function ProductCategories(props) {
           <div className={classes.imageButton}>
             <Typography
               component="h3"
-              variant="h6"
+              variant="subtitle1"
               color="inherit"
               className={classes.imageTitle}
             >
-              About Us
+              Center for Student Wellbeing
               <div className={classes.imageMarked} />
             </Typography>
           </div>
         </Button>
         <Button
-          key='Resource Guide'
+          key='Active Minds'
           className={classes.imageWrapper}
           style={{
-            width: '50%',
+            width: '33%',
           }}
-          href='/interactiveResourceGuide'
+          
         >
         <div
           className={classes.imageSrc}
@@ -144,18 +144,18 @@ function ProductCategories(props) {
               color="inherit"
               className={classes.imageTitle}
             >
-              Resource Guide
+              Active Minds
               <div className={classes.imageMarked} />
             </Typography>
           </div>
         </Button>
         <Button
-          key='Gallery'
+          key='Recovery Support'
           className={classes.imageWrapper}
           style={{
-            width: '50%',
+            width: '33%',
           }}
-          href='/gallery'
+          
         >
         <div
           className={classes.imageSrc}
@@ -171,18 +171,18 @@ function ProductCategories(props) {
               color="inherit"
               className={classes.imageTitle}
             >
-              Gallery
+              Recovery Support
               <div className={classes.imageMarked} />
             </Typography>
           </div>
         </Button>
         <Button
-          key='Community Partners'
+          key='Mental Health Round Table'
           className={classes.imageWrapper}
           style={{
-            width: '50%',
+            width: '33%',
           }}
-          href='communityPartners'
+          
         >
         <div
           className={classes.imageSrc}
@@ -198,7 +198,142 @@ function ProductCategories(props) {
               color="inherit"
               className={classes.imageTitle}
             >
-              Community Partners
+              Mental Health Round Table
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
+        <Button
+          key='Minding Your Mind'
+          className={classes.imageWrapper}
+          style={{
+            width: '33%',
+          }}
+          
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              Minding Your Mind
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
+        <Button
+          key='IFC'
+          className={classes.imageWrapper}
+          style={{
+            width: '33%',
+          }}
+          
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              IFC
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
+        <Button
+          key='NPHC'
+          className={classes.imageWrapper}
+          style={{
+            width: '33%',
+          }}
+          
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              NPHC
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
+        <Button
+          key='Panhellenic Council'
+          className={classes.imageWrapper}
+          style={{
+            width: '33%',
+          }}
+          
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              Panhellenic Council
+              <div className={classes.imageMarked} />
+            </Typography>
+          </div>
+        </Button>
+        <Button
+          key='VSG'
+          className={classes.imageWrapper}
+          style={{
+            width: '33%',
+          }}
+          
+        >
+        <div
+          className={classes.imageSrc}
+          style={{
+            backgroundImage: `url(https://www.skinit.com/media/catalog/product/cache/9dbe6a0c16a5b581719a1aa389879cfc/f/a/fall1509_1.jpg)`,
+          }}
+        />
+        <div className={classes.imageBackdrop} />
+          <div className={classes.imageButton}>
+            <Typography
+              component="h3"
+              variant="h6"
+              color="inherit"
+              className={classes.imageTitle}
+            >
+              VSG
               <div className={classes.imageMarked} />
             </Typography>
           </div>

@@ -33,12 +33,9 @@ const Header = (props:HeaderProps) => {
     <div onClick={handleDrawerClose}>
       <AppBar>
         <Toolbar variant="dense" className={styles.headerStyle}>
-        <Link to="/">
-          <img src={logo} />
-        </Link>
-          <Typography variant="h6">
-              The Come To Me Campaign
-          </Typography>
+          <Link to="/">
+            <img src={logo} />
+          </Link>
         </Toolbar>
       </AppBar>
     </div>
