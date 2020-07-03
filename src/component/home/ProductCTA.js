@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import Container from '@material-ui/core/Container';
 import { Button, Typography } from '@material-ui/core';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import bracelet from '../images/bracelet.jpg';
 
 const styles = (theme) => ({
@@ -71,22 +72,25 @@ function ProductCTA(props) {
   };
 
   return (
-    <Container className={classes.root} component="section">
-      <Grid container>
-        <Grid item xs={12} md={6} className={classes.cardWrapper}>
-          <div className={classes.card}>
-            <form onSubmit={handleSubmit} className={classes.cardContent}>
-              <Typography variant="h3" component="h2" gutterBottom>
-                Do You Want Help?
-              </Typography>
-              <Typography variant="h5">
-                Take our interactive quiz to find curated resources.
-              </Typography>
-              <Button type="submit" color="primary" variant="contained" className={classes.button}>
-                Take me there
-              </Button>
-            </form>
-          </div>
+    <Router>
+      <Container className={classes.root} component="section">
+        <Grid container>
+          <Grid item xs={12} md={6} className={classes.cardWrapper}>
+            <div className={classes.card}>
+              <form onSubmit={handleSubmit} className={classes.cardContent}>
+                <Typography variant="h3" component="h2" gutterBottom>
+                  Do You Want Help?
+                </Typography>
+                <Typography variant="h5">
+                  Take our interactive quiz to find curated resources.
+                </Typography>
+                <Link to='/interactiveResourceGuide'>
+                  <Button type="submit" color="primary" variant="contained" className={classes.button}>
+                    Take me there
+                  </Button>
+                </Link>
+              </form>
+            </div>
         </Grid>
         <Grid item xs={12} md={6} className={classes.imagesWrapper}>
           <Hidden smDown>
@@ -97,9 +101,10 @@ function ProductCTA(props) {
               className={classes.image}
             />
           </Hidden>
+          </Grid>
         </Grid>
-      </Grid>
-    </Container>
+      </Container>
+    </Router>
   );
 }
 
