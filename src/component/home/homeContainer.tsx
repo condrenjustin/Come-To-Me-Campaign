@@ -4,6 +4,7 @@ import Home from '../home/home';
 import AboutContainer from '../about/aboutContainer';
 import ProductCategories from '../home/ProductCategories.js';
 import PartnerContainer from '../partners/partnerContainer';
+import ProductCTA from '../home/ProductCTA';
 
 export interface HomeContainerProps {
   // dispatch: (action:any) => any;
@@ -17,6 +18,7 @@ class HomeContainer extends React.Component<HomeContainerProps> {
         <Home/>
         <AboutContainer/>
         <ProductCategories/>
+        <ProductCTA/>
       </div>
     );
   }

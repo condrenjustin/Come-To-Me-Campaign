@@ -27,8 +27,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#ffe3a0',
   },
   container: {
-    marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(8),
+    marginTop: theme.spacing(5),
+    marginBottom: theme.spacing(5),
     display: 'flex',
   },
   iconsWrapper: {
