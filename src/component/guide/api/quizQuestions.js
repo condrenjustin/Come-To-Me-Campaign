@@ -13,7 +13,7 @@ var quizQuestions = [
     ]
   },
   {
-    question: "Do you want to speak with a professional",
+    question: "Do you want to speak with a professional?",
     answers: [
       {
         type: "Yes",

@@ -50,8 +50,6 @@ class Guide extends Component {
 
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value);
-    console.log(event.currentTarget.value);
-
     if (this.state.questionId < quizQuestions.length) {
       if (event.currentTarget.value === "Yes"){
         setTimeout(() => this.setResults(this.getResults()), 300);
@@ -62,6 +60,7 @@ class Guide extends Component {
     } else {
       setTimeout(() => this.setResults(this.getResults()), 300);
     }
+    this.forceUpdate();
   }
 
   setUserAnswer(answer) {
@@ -93,8 +92,6 @@ class Guide extends Component {
 
     // set answers of each question into an array
     const results = Object.keys(answersCount);
-
-    console.log(results);
     
     return results;
   }

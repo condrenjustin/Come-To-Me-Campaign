@@ -55,7 +55,7 @@ function ProductHeroLayout(props) {
 
   return (
     <section className={classes.root}>
-      <Container className={classes.container}>t
+      <Container className={classes.container}>
         {children}
         <div className={classes.backdrop} />
         <div className={clsx(classes.background, backgroundClassName)} />

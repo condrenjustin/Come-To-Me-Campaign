@@ -2,7 +2,8 @@ import React from 'react';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles'
 import HomeContainer from '../component/home/homeContainer';
-import Guide from '../component/guide/Guide';
+import Guide from '../component/guide/Guide.js';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,13 +34,13 @@ class App extends React.Component{
     return (
       <ThemeProvider theme={theme}>
         <Router>
-        <div>
-        <Switch>
-          <Route path="/" exact component={HomeContainer} />
-          <Route path="/interactiveResourceGuide" exact component={Guide} />
-        </Switch>
-        <AppFooter/>
-        </div>
+          <div>
+            <Switch>
+              <Route path="/" exact component={HomeContainer} />
+              <Route path="/interactiveResourceGuide" exact component={Guide} />
+            </Switch>
+            <AppFooter/>
+          </div>
       </Router>
       </ThemeProvider>
     );

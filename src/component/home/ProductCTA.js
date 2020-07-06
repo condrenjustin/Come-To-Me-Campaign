@@ -86,7 +86,7 @@ function ProductCTA(props) {
                 </Typography>
                 <Link to='/interactiveResourceGuide'>
                   <Button type="submit" color="primary" variant="contained" className={classes.button}>
-                    Take me there
+                    Take Quiz
                   </Button>
                 </Link>
               </form>
