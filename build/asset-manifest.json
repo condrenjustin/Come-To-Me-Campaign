@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1844f1d3.chunk.css",
+    "main.js": "/static/js/main.c1d29a2b.chunk.js",
+    "main.js.map": "/static/js/main.c1d29a2b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dc5e2fae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dc5e2fae.js.map",
+    "static/js/2.3a38e7f9.chunk.js": "/static/js/2.3a38e7f9.chunk.js",
+    "static/js/2.3a38e7f9.chunk.js.map": "/static/js/2.3a38e7f9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.40ead9542f85a8d1b5ce5591b8ba8cfe.js": "/precache-manifest.40ead9542f85a8d1b5ce5591b8ba8cfe.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1844f1d3.chunk.css.map": "/static/css/main.1844f1d3.chunk.css.map",
+    "static/js/2.3a38e7f9.chunk.js.LICENSE.txt": "/static/js/2.3a38e7f9.chunk.js.LICENSE.txt",
+    "static/media/bracelet.jpg": "/static/media/bracelet.bd1c1897.jpg",
+    "static/media/curvy.png": "/static/media/curvy.3a1df6c1.png",
+    "static/media/index.css": "/static/media/icon-check.4cffa739.svg",
+    "static/media/logo.png": "/static/media/logo.0d1d59c2.png",
+    "static/media/warrior.png": "/static/media/warrior.148bdab3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc5e2fae.js",
+    "static/js/2.3a38e7f9.chunk.js",
+    "static/css/main.1844f1d3.chunk.css",
+    "static/js/main.c1d29a2b.chunk.js"
+  ]
+}
