@@ -5,6 +5,7 @@ import HomeContainer from '../component/home/homeContainer';
 import Guide from '../component/guide/Guide.js';
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -36,11 +37,11 @@ class App extends React.Component{
           <div>
             <Switch>
               <Route path="/" exact component={HomeContainer} />
-              <Route path="/interactiveResourceGuide" component={Guide} />
+              <Route path="*" exact component={Guide} />
             </Switch>
             <AppFooter/>
           </div>
-      </Router>
+        </Router>
       </ThemeProvider>
     );
   }
