@@ -50,7 +50,7 @@ function About(props) {
           alt="curvy lines"
         />
         <Grid container spacing={5}>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <div className={classes.item}>
               <Typography variant="h5" className={classes.title}>
                 Our Identity
@@ -60,7 +60,7 @@ function About(props) {
               </Typography>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <div className={classes.item}>
               <Typography variant="h5" className={classes.title}>
                 Our Beginnings
@@ -70,7 +70,7 @@ function About(props) {
               </Typography>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <div className={classes.item}>
               <Typography variant="h5" className={classes.title}>
                 Our Progress
@@ -80,7 +80,7 @@ function About(props) {
               </Typography>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <div className={classes.item}>
               <Typography variant="h5" className={classes.title}>
                 Our Vision
