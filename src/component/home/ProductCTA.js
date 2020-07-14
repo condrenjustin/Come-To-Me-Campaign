@@ -84,11 +84,11 @@ function ProductCTA(props) {
                 <Typography variant="h5">
                   Take our interactive quiz to find curated resources.
                 </Typography>
-                <Link to='/interactiveResourceGuide'>
-                  <Button type="submit" color="primary" variant="contained" className={classes.button}>
+//                 <Link to='/interactiveResourceGuide'>
+                  <Button type="submit" color="primary" variant="contained" href="https://forms.gle/iQQPooUPcmDyyzTG7" className={classes.button}>
                     Take Quiz
                   </Button>
-                </Link>
+//                 </Link>
               </form>
             </div>
         </Grid>
