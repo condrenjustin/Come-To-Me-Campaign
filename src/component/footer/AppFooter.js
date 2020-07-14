@@ -13,10 +13,7 @@ function Copyright() {
   return (
     <React.Fragment>
       {'© '}
-      <Link color="inherit" href="https://material-ui.com/">
-        The Come To Me Campaign
-      </Link>{' '}
-      {new Date().getFullYear()}
+        The Come To Me Campaign 
     </React.Fragment>
   );
 }
@@ -27,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#ffe3a0',
   },
   container: {
-    marginTop: theme.spacing(5),
+    marginTop: theme.spacing(1),
     marginBottom: theme.spacing(5),
     display: 'flex',
   },
@@ -89,9 +86,6 @@ export default function AppFooter() {
                 <a href="mailto:cometomevandy@gmail.com" className={classes.icon}>
                   <img src={mail} alt="Mail" />
                 </a>
-              </Grid>
-              <Grid item>
-                <Copyright />
               </Grid>
             </Grid>
           </Grid>
