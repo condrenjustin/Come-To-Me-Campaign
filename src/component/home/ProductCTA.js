@@ -85,7 +85,7 @@ function ProductCTA(props) {
                   Take our interactive quiz to find curated resources.
                 </Typography>
                  
-                  <Button type="submit" color="primary" variant="contained" href="https://forms.gle/iQQPooUPcmDyyzTG7" className={classes.button}>
+                  <Button type="submit" color="primary" variant="contained" href="https://stoic-wilson-68d83e.netlify.app/" className={classes.button}>
                     Take Quiz
                   </Button>
                  
